@@ -38,6 +38,9 @@ Shortcode
 
 `[gs_logo]`
 
+Use following shortcode to display partners, clients or sponsors Logo without title.
+`[gs_logo title="no"]`
+
 == Installation ==
 
 * Install it as a regular WordPress plugin
