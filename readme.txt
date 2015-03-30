@@ -1,7 +1,7 @@
 === GS Logo Slider ===
 Contributors: samdani
 Donate link: http://www.gsamdani.me/contact
-Tags: Best logo slider, client logo slider, easy logo slider, logo slider, logo slider wordpress, owl carousel, owl carousel wordpress, owl carousel wordpress plugin, Responsive logo slider, gsamdani
+Tags: Best logo slider, client logo slider, easy logo slider, logo slider, logo slider wordpress, logo carousel, logo carousel wordpress, logo carousel wordpress plugin, Responsive logo slider, gsamdani
 Requires at least: 3.3
 Tested up to: 4.1
 Stable tag: 1.0.2
@@ -31,7 +31,7 @@ Plugin Features
 * Easy to use.
 * Developer friendly & easy to customize.
 * Powered by bxSlider.
-* Its easy to use interface allows you to manage, edit, create, and delete Testimonials with no new knowledge
+* Its easy to use interface allows you to manage, edit, create, and delete Logo with no new knowledge
 
 
 Shortcode
@@ -45,16 +45,42 @@ Use following shortcode to display partners, clients or sponsors Logo without ti
 
 == Installation ==
 
-* Install it as a regular WordPress plugin
+Install GS Logo Slider as a regular WordPress plugin. Here is different ways to install GS Logo slider plugin : 
 
-* Active the plugin.
+= Install by Search Plugin =
+- In your Admin, go to menu Plugins > Add New
+- Search GS Logo Slider
+- Click to install
+- Activate the plugin
+- GS Logos post type will show below POSTS
 
-* Use this [gs_logo] shortcode, where you need to show the logo slider.
+= Install by Upload Plugin =
+- Download the latest version of GS Logo Slider (.zip file)
+- In your Admin, go to menu Plugins > Add New
+- Select  "Upload Plugin"
+- Click on “Choose File”
+- Select downloaded gs-logo-slider.zip & click on ‘Install Now’ button
+- Activate the plugin
+- Logos post type will show below POSTS
+
+= Install Plugin using FTP =
+- Upload gs-logo-slider folder inside the /wp-content/plugins/ directory
+- Go to WordPress dashboard > Plugins & Activate the GS Logo Slider
+- Logos post type will show below POSTS
+
+* Put [gs_logo] / [gs_logo title="no"] shortcode, where you need to show the logo slider.
 
 
 == Frequently Asked Questions ==
 
-* Coming Soon
+= How do I add new Logo? =
+Logo post type will show below POSTS. To add new logo, go to GS Logos > Add New, then add Logo company name at Title, Add logo Image & URL with http:// then Finally Publish.
+
+= What will be logo image dimension? =
+Default image size set to 200px X 125px.
+
+= How to use shortcode inside page templates? =
+WordPress has a great function, do_shortcode(), that will allow you to use shortcodes inside your theme files. For example, to output Logos in a Theme file, you would do this: ```<?php echo do_shortcode('[gs_logo]'); ?>```
 
 == Screenshots ==
 
