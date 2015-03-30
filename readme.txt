@@ -83,8 +83,9 @@ Default image size set to 200px X 125px.
 WordPress has a great function, do_shortcode(), that will allow you to use shortcodes inside your theme files. For example, to output Logos in a Theme file, you would do this: ```<?php echo do_shortcode('[gs_logo]'); ?>```
 
 == Screenshots ==
-
-* Coming Soon
+1. GS Logo Slider output on pages/post after adding shortcode [gs_logo title="no"]
+2. GS Logo Slider output on pages/post after adding shortcode [gs_logo] This shortcode will output partners, clients or sponsors Logo including company name.
+3. GS Logo Slider's output on hover state to control next / previous logo.
 
 
 == Changelog ==
