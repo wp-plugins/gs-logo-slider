@@ -36,6 +36,8 @@ Plugin Features
 
 Shortcode
 
+Use following shortcode to display partners, clients or sponsors Logo including company name.
+
 `[gs_logo]`
 
 Use following shortcode to display partners, clients or sponsors Logo without title.
@@ -60,8 +62,6 @@ Use following shortcode to display partners, clients or sponsors Logo without ti
 
 
 == Changelog ==
-
-= version 1.0.2 =
 
 = version 1.0 =
 * Initial release
