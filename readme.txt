@@ -30,7 +30,7 @@ Plugin Features
 * Work with all Wordpress theme.
 * Easy to use.
 * Developer friendly & easy to customize.
-* Powered by OWL bxSlider.
+* Powered by bxSlider.
 * Its easy to use interface allows you to manage, edit, create, and delete Testimonials with no new knowledge
 
 
