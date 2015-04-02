@@ -4,7 +4,7 @@ Donate link: http://www.gsamdani.me/contact
 Tags: Best logo slider, client logo slider, easy logo slider, logo slider, logo slider wordpress, logo carousel, logo carousel wordpress, logo carousel wordpress plugin, Responsive logo slider, gsamdani
 Requires at least: 3.3
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,10 +90,18 @@ WordPress has a great function, do_shortcode(), that will allow you to use short
 
 == Changelog ==
 
+= version 1.0.1 =
+* Added Desending logo order
+* Increased 20 number of logos to display 
+
 = version 1.0 =
 * Initial release
 
 == Upgrade notice ==
+
+= version 1.0.1 =
+* Added Desending logo order
+* Increased 20 number of logos to display
 
 = version 1.0 =
 * Initial release

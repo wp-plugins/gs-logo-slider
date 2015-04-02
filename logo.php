@@ -11,7 +11,7 @@
  * Plugin Name:			GS Logo Slider
  * Plugin URI:			http://www.gsamdani.me/wordpress-plugins
  * Description:       	Best Responsive Logo slider to display partners, clients or sponsors Logo on Wordpress site. Display anywhere at your site using shortcode like [gs_logo] Check more shortcode examples and documention at <a href="http://logo.gsamdani.me">GS Logo Slider Docs</a> 
- * Version:           	1.0.0
+ * Version:           	1.0.1
  * Author:       		Golam Samdani
  * Author URI:       	http://www.gsamdani.me
  * Text Domain:       	golamsamdani
