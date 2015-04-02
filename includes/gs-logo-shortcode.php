@@ -34,8 +34,8 @@ function gs_logo_shortcode( $atts ) {
 	extract(shortcode_atts( 
 			array(
 			'posts' 	=> -1,
-			'order_by'	=> 'title',
-			'orderby' 	=> 'title',
+			'order'		=> 'DESC',
+			'orderby'   => 'date',
 			'title'		=> 'yes'
 			), $atts 
 		));
@@ -43,8 +43,10 @@ function gs_logo_shortcode( $atts ) {
 	$loop = new WP_Query(
 		array(
 			'post_type'	=> 'gs-logo-slider',
-			'order_by'	=> 'title',
-			'title'		=> 'yes'
+			'order'		=> 'DESC',
+			'orderby'	=> 'date',
+			'title'		=> 'yes',
+			'posts_per_page'	=> 20
 			)
 		);
 
