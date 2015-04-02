@@ -91,7 +91,7 @@ WordPress has a great function, do_shortcode(), that will allow you to use short
 == Changelog ==
 
 = version 1.0.1 =
-* Added Desending logo order
+* Added Descending logo order
 * Increased 20 number of logos to display 
 
 = version 1.0 =
@@ -100,7 +100,7 @@ WordPress has a great function, do_shortcode(), that will allow you to use short
 == Upgrade notice ==
 
 = version 1.0.1 =
-* Added Desending logo order
+* Added Descending logo order
 * Increased 20 number of logos to display
 
 = version 1.0 =
