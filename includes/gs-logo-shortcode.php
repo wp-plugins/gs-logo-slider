@@ -36,7 +36,7 @@ function gs_logo_shortcode( $atts ) {
 			'posts' 	=> -1,
 			'order'		=> 'DESC',
 			'orderby'   => 'date',
-			'title'		=> 'yes'
+			'title'		=> 'no'
 			), $atts 
 		));
 
@@ -45,7 +45,7 @@ function gs_logo_shortcode( $atts ) {
 			'post_type'	=> 'gs-logo-slider',
 			'order'		=> 'DESC',
 			'orderby'	=> 'date',
-			'title'		=> 'yes',
+			'title'		=> $title,
 			'posts_per_page'	=> 20
 			)
 		);
@@ -58,7 +58,7 @@ function gs_logo_shortcode( $atts ) {
 				$meta = get_post_meta( get_the_id() );
 				
 				$gs_logo_id = get_post_thumbnail_id();
-				$gs_logo_url = wp_get_attachment_image_src($gs_logo_id, array(200,125), true);
+				$gs_logo_url = wp_get_attachment_image_src($gs_logo_id, array(200,200), true);
 				$gs_logo = $gs_logo_url[0];
 				$gs_logo_alt = get_post_meta($gs_logo_id,'_wp_attachment_image_alt',true);
 

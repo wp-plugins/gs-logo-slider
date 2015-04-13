@@ -91,3 +91,73 @@ function gs_logo_slider_save_meta_box_data( $post_id ) {
 	update_post_meta( $post_id, 'client_url', $gs_logo );
 }
 add_action( 'save_post', 'gs_logo_slider_save_meta_box_data' );
+
+
+// Ad for PRO version
+
+function gs_logo_pro_add_meta_box() {
+
+		add_meta_box(
+			'gs_logo_sectionid_pro',
+			__( "GS Logo Slider - PRO" , 'golamsamdani' ),
+			'gs_logo_meta_box_pro',
+			'gs-logo-slider'
+		);
+}
+add_action( 'add_meta_boxes', 'gs_logo_pro_add_meta_box' );
+
+function gs_logo_meta_box_pro() {  ?>
+	
+	<p>
+	<h3 style="padding-left:0">Available features at GS Logo Slider - PRO</h3>
+    <ol class="">
+    	<li>Advance settings panel with all necessary options.</li>
+		<li>Multiple sliders can be shown from different Logo categories.</li>
+		<li>Slider sliding speed, autoplay pause, navigation, pagination, color settings.</li>
+		<li>Display Logos horizontally or vertically.</li>
+		<li>Control Logo sliding speed.</li>
+		<li>Enable / disable infinite loop.</li>
+		<li>Slide Logos in ticker mode (similar to news scroll).</li>
+		<li>Logo grayscale feature.</li>
+		<li>Logo image size control.</li>
+		<li>Stop on hover control.</li>
+		<li>Display Logo including / excluding Title.</li>
+		<li>Specify target to load the Links</li>
+		<li>Number of logos to move on transition.</li>
+		<li>Tons of shortcode parameters</li>
+		<li>Category wise Logos</li>
+		<li>Great Settings Panel</li>
+		<li>Works with any WordPress Theme.</li>
+		<li>Easy and user-friendly setup.</li>
+		<li>Well documentation and support.</li>
+    	<li>And many more.</li>
+    </ol>
+  </p>
+  <p><a class="button button-primary button-large" href="http://www.gsamdani.me/product/gs-logo-slider" target="_blank">Go for PRO</a></p>
+<?php
+}
+
+
+// SIDEBAR Ad for PRO version
+
+function gs_logo_pro_sidebar_add_meta_box() {
+
+		add_meta_box(
+			'gs_logo_sectionid_pro_sidebar',
+			__( "Other Info" , 'golamsamdani' ),
+			'gs_logo_meta_box_pro_sidebar',
+			'gs-logo-slider',
+			'side',
+			'low'
+		);
+}
+add_action( 'add_meta_boxes', 'gs_logo_pro_sidebar_add_meta_box' );
+
+function gs_logo_meta_box_pro_sidebar() { ?>
+	<a href="http://logo.gsamdani.me" target="_blank" style="text-decoration: none;width:97%;overflow:hidden;margin:5px;background: #ffffff;border: 1px solid #eeeeee;display: block;float: left;text-align: center;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; outline: 0!important;" ><h3 style="margin: 0px;background: #eeeeee;-webkit-border-top-left-radius: 3px;-webkit-border-top-right-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-topright: 5px;border-top-left-radius: 3px;border-top-right-radius: 3px;padding:5px;text-decoration: none;color:#333">GS Logo Slider - DEMO</h3><img style="max-width: 100%;height:auto; border-radius: 50%; margin: 5px 0 2px;" src="<?php echo plugins_url('gs-logo-slider/img/gsl.png'); ?>" /></a>
+
+	<a href="http://testimonial.gsamdani.me/" target="_blank" style="text-decoration: none;width:97%;overflow:hidden;margin:5px;background: #ffffff;border: 1px solid #eeeeee;display: block;float: left;text-align: center;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; outline: 0!important;" ><h3 style="margin: 0px;background: #eeeeee;-webkit-border-top-left-radius: 3px;-webkit-border-top-right-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-topright: 5px;border-top-left-radius: 3px;border-top-right-radius: 3px;padding:5px;text-decoration: none;color:#333">GS Testimonial Slider - DEMO</h3><img style="max-width: 100%;height:auto; border-radius: 50%; margin: 5px 0 2px;" src="<?php echo plugins_url('gs-logo-slider/img/gs-testimonial-slider.png'); ?>" /></a>
+
+	<div style="clear:both"></div>
+<?php
+}

@@ -4,7 +4,7 @@ Donate link: http://www.gsamdani.me/contact
 Tags: Best logo slider, client logo slider, easy logo slider, logo slider, logo slider wordpress, logo carousel, logo carousel wordpress, logo carousel wordpress plugin, Responsive logo slider, gsamdani
 Requires at least: 3.3
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,9 @@ GS Logo Slider is a WordPress plugin which create custom post type to add client
 
 GS Logo Slider plugin is simple but flexible & powerful.
 
+*   [Upgrade to PRO &raquo;](http://www.gsamdani.me/product/gs-logo-slider)
 *   [View live Demos &raquo;](http://logo.gsamdani.me)
+*   [Documentation &raquo;](http://logo.gsamdani.me/documentation)
 *   [Support &raquo;](http://www.gsamdani.me/support)
 *   [Contact Me &raquo;](http://www.gsamdani.me/contact)
 
@@ -33,19 +35,46 @@ Plugin Features
 * Powered by bxSlider.
 * Its easy to use interface allows you to manage, edit, create, and delete Logo with no new knowledge
 
+Pro Features
+
+* Advance settings panel with all necessary options.
+* Multiple sliders can be shown from different Logo categories.
+* Slider sliding speed, autoplay pause, navigation, pagination, color settings.
+* Display Logos horizontally or vertically.
+* Control Logo sliding speed.
+* Enable / disable infinite loop.
+* Slide Logos in ticker mode (similar to news scroll).
+* Logo grayscale feature.
+* Logo image size control.
+* Stop on hover control.
+* Display Logo including / excluding Title.
+* Specify target to load the Links
+* Number of logos to move on transition.
+* Tons of shortcode parameters
+* Category wise Logos
+* Easy and user-friendly setup.
+* Well documentation and support.
+* And many more.
+
 
 Shortcode
 
-Use following shortcode to display partners, clients or sponsors Logo including company name.
-
+Basic Usage - Use following shortcode to display partners, clients or sponsors Logo without title.
 `[gs_logo]`
 
-Use following shortcode to display partners, clients or sponsors Logo without title.
-`[gs_logo title="no"]`
+Shortcode attributes Usage
+`[gs_logo title="yes" posts="15" order="ASC" logo_cat="food" mode="vertical" speed="1000" inf_loop="0" ticker="1" logo_color="gray_to_def"]`
+
+Confused?
+
+*   [View live Demos &raquo;](http://logo.gsamdani.me)
+*   [Documentation &raquo;](http://logo.gsamdani.me/documentation)
 
 == Installation ==
 
 Install GS Logo Slider as a regular WordPress plugin. Here is different ways to install GS Logo slider plugin : 
+
+*   [Visual Installation & Usage Guide &raquo;](http://logo.gsamdani.me/documentation)
 
 = Install by Search Plugin =
 - In your Admin, go to menu Plugins > Add New
@@ -68,7 +97,7 @@ Install GS Logo Slider as a regular WordPress plugin. Here is different ways to 
 - Go to WordPress dashboard > Plugins & Activate the GS Logo Slider
 - Logos post type will show below POSTS
 
-* Put [gs_logo] / [gs_logo title="no"] shortcode, where you need to show the logo slider.
+* Put [gs_logo] shortcode, where you need to show the logo slider.
 
 
 == Frequently Asked Questions ==
@@ -77,18 +106,32 @@ Install GS Logo Slider as a regular WordPress plugin. Here is different ways to 
 Logo post type will show below POSTS. To add new logo, go to GS Logos > Add New, then add Logo company name at Title, Add logo Image & URL with http:// then Finally Publish.
 
 = What will be logo image dimension? =
-Default image size set to 200px X 125px.
+Default image size set to 200px X 200px.
 
 = How to use shortcode inside page templates? =
 WordPress has a great function, do_shortcode(), that will allow you to use shortcodes inside your theme files. For example, to output Logos in a Theme file, you would do this: ```<?php echo do_shortcode('[gs_logo]'); ?>```
 
 == Screenshots ==
-1. GS Logo Slider output on pages/post after adding shortcode [gs_logo title="no"]
-2. GS Logo Slider output on pages/post after adding shortcode [gs_logo] This shortcode will output partners, clients or sponsors Logo including company name.
+1. GS Logo Slider output on pages/post after adding shortcode [gs_logo] This shortcode will output partners, clients or sponsors Logo excluding company name.
+2. GS Logo Slider output on pages/post after adding shortcode [gs_logo title="yes"] This shortcode will output partners, clients or sponsors Logo including company name.
 3. GS Logo Slider's output on hover state to control next / previous logo.
+4. GS Logos > Add New Logo. Then add Company Name, Company Logo, Company URL, Logo Categories
+5. GS Logos > All Logos. View all Logos at a glance.
+6. GS Logos > Logo Settings > General Settings (Available only at PRO version)
+7. GS Logos > Logo Settings > Control Settings (Available only at PRO version)
+8. GS Logos > Logo Settings > Style Settings (Available only at PRO version)
 
 
 == Changelog ==
+
+= version 1.0.2 =
+* Documentation Added
+* Added Demo & Doc links
+* Logo size changed to 200px X 200px
+* By default title is not visible now
+* Added different screenshots
+* Added PRO features info
+* Docs link added at sidebar
 
 = version 1.0.1 =
 * Added Descending logo order
@@ -98,6 +141,15 @@ WordPress has a great function, do_shortcode(), that will allow you to use short
 * Initial release
 
 == Upgrade notice ==
+
+= version 1.0.2 =
+* Documentation Added
+* Added Demo & Doc links
+* Logo size changed to 200px X 200px
+* By default title is not visible now
+* Added different screenshots
+* Added PRO features info
+* Docs link added at sidebar
 
 = version 1.0.1 =
 * Added Descending logo order
