@@ -25,7 +25,6 @@ GS Logo Slider plugin is simple but flexible & powerful.
 Plugin Features
 
 * Logo Shortcode Ready
-* Responsive Logo slider.
 * Very light weight.
 * Custom post type for Logo posting.
 * No need any settings.
