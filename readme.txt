@@ -3,7 +3,7 @@ Contributors: samdani
 Donate link: http://www.gsamdani.me/contact
 Tags: Best logo slider, client logo slider, easy logo slider, logo slider, logo slider wordpress, logo carousel, logo carousel wordpress, logo carousel wordpress plugin, Responsive logo slider, gsamdani
 Requires at least: 3.3
-Tested up to: 4.1
+Tested up to: 4.2.3
 Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
